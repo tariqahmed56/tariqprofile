@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import LayOut from './LayOut.jsx'
 import Projects from './pages/Projects.jsx'
 import Hero from './Components/Hero.jsx'
 import Contact from './pages/Contact.jsx'
