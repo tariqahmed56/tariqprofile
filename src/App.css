@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #003140;
+  color: white;
+  transition: 0.3s;
+}
+body.lightMode{
+  background: white;
+  color: black;
+}
+
+li a {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
+button{
+  cursor: pointer;
+}
+.bottomLine{
+  border-bottom: 1px solid rgb(16 45 68);
+}
+
+/* hero */
+.hero{
+  min-height: calc(100dvh - 80px);
+}
+
+.icons{
+  border: 1px solid rgb(180, 174, 174);
+}
+.gradient {
+  background: linear-gradient(to right, #f9d423, #1261ab, #008480);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
